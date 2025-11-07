@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wigs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/backgroundgradient"
+        android:elevation="90dp"
+        android:orientation="vertical"
+        app:cornerRadius="299dp"/>
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/baseline_keyboard_arrow_left_24" />
+
+
+    <TextView android:layout_width="199dp" android:layout_height="50dp" android:layout_marginStart="85dp" android:layout_marginTop="28sp" android:text="Wigs" android:textStyle="bold" android:textSize="30dp"/>
+
+
+    <TextView android:layout_width="190dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="85dp" android:layout_marginTop="8sp" android:layout_marginBottom="33dp"
+        android:text="@string/we_sell_brazilian_wigs_under_your_price" android:textSize="14dp" android:textStyle="italic"/>
+
+
+    <LinearLayout
+        android:id="@+id/quantitySelector"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSm"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C830CA"
+            android:elevation="55dp"
+            android:text="@string/small"
+            android:textColor="#F8F6F4"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonMed"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/medium"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonLar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/large"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+        <TextView android:id="@+id/cartLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R20.00" android:textSize="28sp" android:textStyle="bold" android:layout_weight="1" android:gravity="start"/>
+
+        <Button
+            android:id="@+id/cartWigs"
+            android:layout_width="17dp"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_add_shopping_cart_24"
+            android:gravity="end"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purp"
+    android:orientation="vertical"
+    tools:context=".RegisterU">
+
+    <!-- 🧑 title -->
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Thrift Us"
+        android:textColor="#995E2CF2"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoContainer" />
+
+
+    <!-- 🧊 Logo -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="240dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="26dp"
+        android:padding="24dp"
+        android:src="@drawable/fash3" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sign Up"
+        android:textColor="#997D18A2"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoContainer" />
+
+
+    <!-- 📧 Email -->
+    <TextView
+        android:id="@+id/Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Name"
+        android:textColor="#B61D5887"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/editName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/apppinkcare"
+        android:backgroundTint="#8CC2C4CA"
+        android:hint="  Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="#19900C"
+        android:textColorHint="#8F615E5E" />
+
+
+    <!-- 📧 Email -->
+
+    <TextView
+        android:id="@+id/EdName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Email"
+        android:textColor="#B61D5887"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+
+    <!-- 📧 Email -->
+    <EditText
+        android:id="@+id/EditEmail1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/apppinkcare"
+        android:backgroundTint="#8CC2C4CA"
+        android:hint="  Enter Email"
+        android:inputType="textPersonName"
+        android:textColor="#19900C"
+        android:textColorHint="#8F615E5E" />
+
+    <TextView
+        android:id="@+id/tilName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:textColor="#B61D5887"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+
+    <!-- 📧 Email -->
+    <EditText
+        android:id="@+id/EditPassword1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="344dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/apppinkcare"
+        android:backgroundTint="#8CC2C4CA"
+        android:hint="  Enter Password"
+        android:inputType="textPersonName"
+        android:textColor="#19900C"
+        android:textColorHint="#8F615E5E" />
+
+
+    <!-- 📧 Email -->
+
+
+    <!-- ✅ Register Button -->
+    <Button
+        android:id="@+id/btnSign"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3C9FEB"
+        android:text="Sign up"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:elevation="6dp" />
+
+    <Button
+        android:id="@+id/btnRLogin"
+        android:layout_width="216dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#AE3CEB"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:elevation="6dp" />
+
+    <!-- ✅ Register Button -->
+
+    <TextView
+        android:id="@+id/tvAlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Already have an account? Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/cardForm"
+        app:layout_constraintStart_toStartOf="@+id/cardForm"
+        app:layout_constraintTop_toBottomOf="@+id/cardForm" />
+
+
+
+</LinearLayout>
