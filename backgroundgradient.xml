@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape>
+        <corners
+
+            />
+
+        <gradient
+            android:startColor="@color/cardview_light_background"
+            android:endColor="#D500FF"
+            android:angle="100"
+            />
+
+    </shape>
+
+    </item>
+</selector>
